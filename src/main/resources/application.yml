@@ -1,4 +1,4 @@
 
 spring.application.name: "configserver"
-spring.cloud.config.server.git.uri: "file:/${user.home}/Desktop/Learn/twitter-clone/config_repo"
+spring.cloud.config.server.git.uri: "file:/${user.home}/Desktop/Learn/twitter-clone/services/config_repo"
 server.port: 8888

@@ -1,0 +1,10 @@
+version: '2.1'
+orbs:
+  docker: circleci/docker@2.1.1
+workflows:
+  build-and-publish-docker-image:
+    jobs:
+      - docker/publish:
+          context: twitter_clone_creds
+          image: sanchitbansal10/twitter_clone
+          tag: configserver
