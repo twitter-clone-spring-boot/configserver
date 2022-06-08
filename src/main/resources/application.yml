@@ -1,4 +1,7 @@
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: ${ENVIRONMENT:dev}
 
-spring.application.name: "configserver"
-spring.cloud.config.server.git.uri: "https://github.com/twitter-clone-spring-boot/config_repo"
-server.port: 8888
+

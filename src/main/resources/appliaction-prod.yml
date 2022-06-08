@@ -1,0 +1,6 @@
+spring.cloud.config.server.git.uri: "https://github.com/twitter-clone-spring-boot/config_repo"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "${EUREKA_SERVER_ADDRESS}"
